@@ -1,0 +1,119 @@
+<!doctype html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/css/foundation-icons.css" />
+    <!-- Estilo Propio -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Rot13 Transcoder</title>
+  </head>
+  <body>
+    <header class="top-bar">
+      <nav aria-labelledby="left-navigation-header" class="top-bar-left">
+        <ul class="menu">
+          <li class="menu-text">Rot13 Transcoder &nbsp; 
+            <em class="step fi-unlock size-72"></em>
+          </li>
+          <li>
+            <a><span data-tooltip title="Rot13 is a tool to translate the Caesar's cipher, it means text rotated by 13 places">What is this?</span></a>
+          </li>
+          <li><a data-tooltip title="Look for ROT13 on Wikipedia" href="https://en.wikipedia.org/wiki/ROT13">Wiki</a></li>
+        </ul>
+      </nav>
+      <nav aria-labelledby="right-navigation-header" class="top-bar-right">
+        <ul class="menu">
+          <li><a id="python-example" data-tooltip title="from this import s" href="#">The Zen of Python</a></li>
+          <li><a id="fox-example" data-tooltip title="Well-known English pangram" href="#">The Quick Brown Fox</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br>
+    <article class="grid-container">
+      <div class="callout primary" data-closable>
+        <button class="close-button" aria-label="Close alert" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h2>Welcome to Rot13 Transcoder</h2>
+        <p>The typed text will be automatically transcoded. 
+          There are some examples in the top navigation bar.</p>
+      </div>
+    </article>
+    <br>
+    <main class="grid-container">
+      <section class="grid-x grid-padding-x large-12 medium cell">
+        <div class="large-6 medium-6 small-12">
+          <article class="callout">
+            <section class="grid-x grid-padding-x">
+              <article class="cell small-4">
+                <h5>Insert text</h5>
+              </article>
+              <article class="cell small-4">
+                <div class="switch rounded tiny" data-tooltip title="Automatic translation">
+                  <input class="switch-input" id="automaticTranslateSwitch" type="checkbox" checked name="automaticTranslateSwitch">
+                  <label class="switch-paddle" for="automaticTranslateSwitch"></label>
+                </div>
+              </article>
+              <article class="cell small-4">
+                <button id="transcodeBtn"class="hollow button small invisible">Transcode!</button>
+              </article>
+            </section>
+            <span class="textarea" role="textbox" id="from" contenteditable></span>
+          </article>
+        </div>
+        <div class="large-6 medium-6 small-12">
+          <article class="callout">
+            <section class="grid-x grid-padding-x">
+              <article class="cell small-8"><h5>Text transcoded</h5></article>
+              <article class="cell small-4">
+                <button id="clearBtn"class="hollow button small alert rounded">Clear both</button>
+              </article>
+            </section>
+            <span class="textarea" role="textbox" id="to" contenteditable></span>
+          </article>
+        </div>
+      </section>
+    </main>
+    <aside class="callout publicidad">
+        <p>space available for advertising</p>
+    </aside>
+    <footer class="top-bar">
+      <nav aria-labelledby="left-navigation-footer" class="top-bar-left">
+        <ul class="menu">
+          <li class="menu-text">Rot13 Transcoder &nbsp; 
+            <em class="step fi-lock size-72"></em>
+          </li>
+          <li><a data-tooltip title="Copyleft 2021, all rights can be freely distributed or modified">Legal</a></li>
+          <li><a data-tooltip title="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm">Keys</a></li>
+        </ul>
+      </nav>
+      <nav aria-labelledby="right-navigation-footer" class="top-bar-right">
+        <ul class="menu">
+          <li><a data-tooltip title="Visit the repo" href="https://github.com/Marfullsen/">Coded by Marfullsen 2021</a></li>
+          <li>
+            <div class="rounded-social-buttons">
+              <a data-tooltip title="See more about Marfullsen" class="social-button github" href="https://github.com/Marfullsen/"></a>
+          </div>
+        </li>
+        </ul>
+      </nav>
+    </footer>
+    <!-- Scripts -->
+    <!-- Recursos externos -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="assets/js/foundation.js"></script>
+    <!-- Recursos propios -->
+    <script src="assets/script.js"></script>
+    <script src="assets/transcoder.js"></script>
+    <script> $(document).foundation(); </script>
+  </body>
+</html>

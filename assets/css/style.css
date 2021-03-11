@@ -1,0 +1,101 @@
+header,footer,nav,ul {
+  background: #2C3950 !important;
+  color: whitesmoke !important;
+}
+
+.callout {
+  margin: 0 1rem 1rem 1rem;
+}
+
+.textarea {
+  border: 1px solid #ccc;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1px 6px;
+
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: both;
+  min-height: 40px;
+  line-height: 20px;
+}
+
+.has-tip {
+  border-bottom: None;
+}
+
+.switch.tiny .switch-paddle::after {
+  border-radius: 5000px !important;
+}
+
+.switch.tiny .switch-paddle {
+  border-radius: 5000px !important;
+}
+
+.rounded {
+  border-radius: 5000px !important;
+}
+
+#from.textarea[contenteditable]:empty::before {
+  content: "Insert text here!";
+  color: gray;
+}
+
+#to.textarea[contenteditable]:empty::before {
+  content: "Text transcoded will apear here!";
+  color: gray;
+}
+
+.publicidad {
+  border: dashed 5px lightgrey;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 2.125rem;
+  height: 2.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 1.4em;
+  border-radius: 1.6875rem;
+  transition: all 1s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+.rounded-social-buttons .social-button.github {
+  background: #000000;
+}
+
+.rounded-social-buttons .social-button.github:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+
+.rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
+  color: #000000;
+  background: #fefefe;
+  border-color: #000000;
+}
