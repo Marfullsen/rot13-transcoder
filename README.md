@@ -1,14 +1,14 @@
 # Rot13 Transcoder
 [![Foundation version](https://img.shields.io/badge/Foundation-6.6.3-blue.svg)](https://get.foundation/)
-[![JS](https://img.shields.io/badge/Vanilla-JavaScript-yellow.svg)](https://get.foundation/)
-[![Github.io](https://img.shields.io/badge/GitHub%20Pages-Rot13%20transcoder-white.svg)](https://Marfulsen.github.io/rot13-transcoder/)
+[![JS](https://img.shields.io/badge/Vanilla-JavaScript-yellow.svg)](https://www.javascript.com/)
+[![Github.io](https://img.shields.io/badge/GitHub%20Pages-Rot13%20transcoder-white.svg)](https://Marfullsen.github.io/rot13-transcoder/)
 
-[![Screenshot](./screenshot_rot13_index.png)](https://Marfulsen.github.io/rot13-transcoder/)
+[![Screenshot](./screenshot_rot13_index.png)](https://Marfullsen.github.io/rot13-transcoder/)
 ---
 
 ## Description
 
-[Site](https://Marfulsen.github.io/rot13-transcoder/) for encrypting and decrypting ciphertext with [rot13](https://en.wikipedia.org/wiki/ROT13).
+[Site](https://Marfullsen.github.io/rot13-transcoder/) for encrypting and decrypting ciphertext with [rot13](https://en.wikipedia.org/wiki/ROT13).
 
 ---
 
@@ -29,7 +29,8 @@ The cipher consists of replacing each letter of the alphabet with the letter tha
 An example of the use of encryption would be:
 
 __The Quick Brown Fox Jumps Over The Lazy Dog.__
-_Gur Dhvpx Oebja Sbk Whzcf Bire Gur Ynml Qbt._
+
+>_Gur Dhvpx Oebja Sbk Whzcf Bire Gur Ynml Qbt._
 
 ---
 
