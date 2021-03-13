@@ -3,7 +3,7 @@
 [![JS](https://img.shields.io/badge/Vanilla-JavaScript-yellow.svg)](https://get.foundation/)
 [![Github.io](https://img.shields.io/badge/GitHub%20Pages-Rot13%20transcoder-white.svg)](https://Marfulsen.github.io/rot13-transcoder/)
 
-[![Screenshot](./screenshot_rot13_index.png)](https://github.com/Marfullsen/)
+[![Screenshot](./screenshot_rot13_index.png)](https://Marfulsen.github.io/rot13-transcoder/)
 ---
 
 ## Description
@@ -23,6 +23,7 @@ ROT13 is a special case of the encryption algorithm known as a Caesar cipher, us
 The cipher consists of replacing each letter of the alphabet with the letter that is thirteen positions ahead, thus, each letter would be as follows:
 
 | Input | ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz |
+| --- | --- |
 | Output | NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm |
 
 An example of the use of encryption would be:
