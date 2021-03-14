@@ -1,7 +1,7 @@
 # Rot13 Transcoder
 [![Foundation version](https://img.shields.io/badge/Foundation-6.6.3-blue.svg)](https://get.foundation/)
 [![JS](https://img.shields.io/badge/Vanilla-JavaScript-yellow.svg)](https://www.javascript.com/)
-[![Github.io](https://img.shields.io/badge/GitHub%20Pages-Rot13%20transcoder-white.svg)](https://Marfullsen.github.io/rot13-transcoder/)
+[![Github.io](https://img.shields.io/badge/GitHub%20Pages-Rot13%20transcoder-green.svg)](https://Marfullsen.github.io/rot13-transcoder/)
 
 [![Screenshot](./screenshot_rot13_index.png)](https://Marfullsen.github.io/rot13-transcoder/)
 ---
