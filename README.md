@@ -46,6 +46,36 @@ cd rot13-transcoder
 
 ---
 
+## The encode/decode code
+
+[![Screenshot](./TheZenOfMarfullsen.png)](https://Marfullsen.github.io/rot13-transcoder/)
+
+```
+let d = {};
+
+function chr(numero){
+  return String.fromCharCode(numero);
+}
+
+for (const c of [65, 97]) {
+  for (var i=0; i<26; i++) {
+    d[chr(i+c)] = chr((i+13) % 26 + c)
+  }  
+}
+
+function transcode(msg) {
+    resp = ''
+    for (letter of msg){
+        resp += d[letter]? d[letter] : ' ';
+    }
+    return resp;
+}
+
+console.log(d)
+console.log(transcode('The Zen Of Marfullsen'))
+```
+
+
 ## Visit the page:
 [Marfullsen.github.io/rot13-transcoder](https://Marfullsen.github.io/rot13-transcoder/)
 
